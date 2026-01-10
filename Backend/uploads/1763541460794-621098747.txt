@@ -1,0 +1,130 @@
+ercentages & Ratio–Proportion (with Formulas + Solutions)
+📘 Formulas Recap
+
+Percentage = (Value / Total) × 100
+
+Change % = ((New – Old) / Old) × 100
+
+If A is x% more than B → A = B × (1 + x/100)
+
+If A is x% less than B → A = B × (1 – x/100)
+
+Ratio a : b = a/b
+
+If A : B = m : n → A/B = m/n
+
+Compound ratio → multiply individual ratios
+
+To convert ratio → percentage: (part/whole) × 100
+
+Q1. 40% of 250 = ?
+Formula: % of number = (percent × number) / 100
+Solution: (40 × 250)/100 = 100
+✅ Answer: 100
+
+Q2. A’s salary is 20% more than B’s. If B = ₹5000, find A.
+Formula: A = B × (1 + 20/100)
+Solution: = 5000 × 1.2 = ₹6000
+✅ Answer: ₹6000
+
+Q3. In a class of 80 students, 60% are boys. How many girls?
+Boys = 60% of 80 = (60×80)/100 = 48
+Girls = 80 – 48 = 32
+✅ Answer: 32 girls
+
+Q4. If a number is increased by 25%, what is its new value?
+Let original = 100 → new = 100 + 25 = 125
+✅ Increase = ×1.25 of original
+
+Q11. A:B = 4:5, B:C = 2:3 → find A:C
+Make B same: multiply 1st by 2 → 8:10, 2nd by 5 → 10:15
+→ A:B:C = 8:10:15 → A:C = 8:15
+✅ Answer: 8:15
+
+Q12. If 3x = 4y, find x : y.
+x/y = 4/3
+✅ Answer: 4:3
+
+Perfect 👏 Let’s solve this step-by-step clearly 👇
+
+Question 6️⃣
+
+Given:
+A : B = 2 : 3
+B : C = 4 : 5
+Find A : B : C
+
+Step 1️⃣: Write the two ratios
+𝐴
+:
+𝐵
+=
+2
+:
+3
+A:B=2:3
+𝐵
+:
+𝐶
+=
+4
+:
+5
+B:C=4:5
+
+Here, we can see B is the common term, but its value is different in both ratios —
+one has 3, and the other has 4.
+We need to make the B values equal before combining.
+
+Step 2️⃣: Make the ‘B’ term same
+
+To make both Bs equal, find a common multiple of 3 and 4 → LCM = 12
+
+Now adjust both ratios so that B = 12 in each.
+
+𝐴
+:
+𝐵
+=
+2
+:
+3
+⇒
+Multiply each term by 4
+→
+8
+:
+12
+A:B=2:3⇒Multiply each term by 4→8:12
+𝐵
+:
+𝐶
+=
+4
+:
+5
+⇒
+Multiply each term by 3
+→
+12
+:
+15
+B:C=4:5⇒Multiply each term by 3→12:15
+Step 3️⃣: Combine them
+
+Now that B is same (12), we can write:
+
+𝐴
+:
+𝐵
+:
+𝐶
+=
+8
+:
+12
+:
+15
+A:B:C=8:12:15
+
+✅ Final Answer: A : B : C = 8 : 12 : 15

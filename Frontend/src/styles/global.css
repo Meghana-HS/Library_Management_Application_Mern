@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+/* NAVIGATION / SIDEBAR */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.sidebar h3 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sidebar button {
+  margin-bottom: 10px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.sidebar button:hover {
+  background-color: #ffd700;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* MAIN CONTENT OFFSET */
+.main-content {
+  margin-left: 200px;
+  width: calc(100% - 200px);
+}
+
+/* HERO SECTION */
+.hero-text {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+
+  .sidebar button {
+    margin: 0 5px;
+  }
+}
+
+/* CARDS & FEATURED BOOKS */
+.card {
+  background: white;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  margin-top: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.featured-book-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* INPUTS & BUTTONS */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background: #0077cc;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+/* TABLE STYLING */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #eee;
+  padding: 8px;
+  text-align: left;
+}
+
+/* ERROR MESSAGES */
+.error {
+  color: #cc0000;
+}
+
+/* SOCIAL ICONS */
+.social-icon {
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  color: #0d6efd; /* Bootstrap primary blue */
+  transform: scale(1.2);
+}
