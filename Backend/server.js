@@ -36,6 +36,7 @@ const app = express();
 
 // ===== CORS =====
 const allowedOrigins = [
+  'https://library-management-application-mern-six.vercel.app',
   'https://6962580c9b1d4b1b9f83b690--starlit-semolina-2b245a.netlify.app',
   'http://localhost:5173',
   'http://localhost:5174',
